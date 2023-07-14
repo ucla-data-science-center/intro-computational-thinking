@@ -11,7 +11,7 @@ Pseudocode is also a good way to explain your needs to software developers or to
 
 Suppose we are fans of the *Lord of the Rings* novels, but we wonder how much the female character of Galadriel featured in the story compared to the male characters Frodo, Gandalf, Aragorn, Legolas and Boromir. We could flick through, say, *The Fellowship of the Ring* to check (which would be painfully slow), or we could run a short piece of code to count the number of times each character's name is mentioned throughout the story. We could document those steps in pseudocode before writing any code to be sure we have covered all the things we will need to do. 
 
-{% include figure.html img="pseudo-example.png" alt="Pseudocode steps" caption="Pseudocode steps" width="65%" %}
+![Pseudocode steps](fig/pseudo-example.png){alt="Pseudocode steps" width="65%"}
 
 *Notes*
 
@@ -30,7 +30,7 @@ Suppose we are fans of the *Lord of the Rings* novels, but we wonder how much th
 
 The code that will be used to do this job is an example of a **loop**. Loops allow us to execute the same command over and over again until a certain pre-set condition has been met. In this case, the condition is to have counted all the appearances of each name on a designated list.
 
-{% include figure.html img="loop-diagram.png" alt="How loops work" caption="Loops in programming" width="65%" %}
+![Loops in programming](fig/loop-diagram.png){alt="How loops work" width="65%"}
 
 In the example above, the program will search all the way through the text of [*The Fellowship of the Ring*](https://www.kaggle.com/datasets/ashishsinhaiitr/lord-of-the-rings-text), adding up all the appearances of the first value in the list (`Galadriel`). Then it will go through the text again to do the count for the second value (`Frodo`). The same process will then be done for all the other characters respectively, and then the program will report its findings for each value. It will then stop running because the list of names has been exhausted, i.e. the condition has been met. 
 

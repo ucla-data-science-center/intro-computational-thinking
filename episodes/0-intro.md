@@ -11,7 +11,7 @@ Different definitions of computational thinking exist. However, computational th
 
 ---------
 
-{% include figure.html img="arrowing.png" alt="Arrows pointing different ways" width="40%" %}
+![](fig/arrowing.png){alt="Arrows pointing different ways" width="40%"}
 
 #### Problem scenario
 
@@ -23,7 +23,7 @@ The sun is starting to sink, it is growing colder, they are now hopelessly lost,
 
 *So what do they do?*
 
-{% include figure.html img="arrowing.png" alt="Arrows pointing different ways" width="40%" %}
+![](fig/arrowing.png){alt="Arrows pointing different ways" width="40%"}
 
 ---------
 
@@ -31,7 +31,7 @@ The sun is starting to sink, it is growing colder, they are now hopelessly lost,
 
 This is a complex problem. As we progress through this lesson, we will learn how to break this problem down so that we can start to solve it. Let's first come to grips with what computational thinking is. 
 
-{% include figure.html img="comp-think.png" alt="The four components of computational thinking" caption="The four components of computational thinking" width="60%" %}
+![The four components of computational thinking](fig/comp-think.png){alt="The four components of computational thinking" width="60%"}
 
 There are four essential components of computational thinking:
 
@@ -44,7 +44,7 @@ There are four essential components of computational thinking:
 
 Professor Jeannette Wing raised computational thinking as an important issue for researchers in a 2006 paper. She stated, *"Informally, computational thinking describes the mental activity in formulating a problem to admit a computational solution. The solution can be carried out by a human or machine, or more generally, by combinations of humans and machines."* 
 
-{% include figure.html img="brains.png" alt="brain" width="40%" %}
+![](fig/brains.png){alt="brain" width="40%"}
 
 Wing believes that computational thinking is just as important a skill for school children to learn as reading, writing and arithmetic. Increasingly, schools are including computational thinking in school curricula.
 

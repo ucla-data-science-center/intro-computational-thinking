@@ -15,7 +15,7 @@ This is a perfect task for a loop, as the task is simple and repetitive.
 
 *Steps in the copying process* 
 
-{% include figure.html img="pseudo-loop.png" alt="Steps in the loop" caption="Steps in the copying loop" width="70%" %}
+![Steps in the copying loop](fig/pseudo-loop.png){alt="Steps in the loop" width="70%"}
 
 ------------
 
@@ -29,7 +29,7 @@ This is a perfect task for a loop, as the task is simple and repetitive.
 
 -------
 
-{% include figure.html img="loop-shell.png" alt="Loop as it would be written in the Unix shell" caption="Coding a loop in the Unix shell" width="90%" %} 
+![Coding a loop in the Unix shell](fig/loop-shell.png){alt="Loop as it would be written in the Unix shell" width="90%"}
 
 *Notes*
 

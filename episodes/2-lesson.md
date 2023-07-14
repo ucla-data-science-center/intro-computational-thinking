@@ -13,7 +13,7 @@ While thinking computationally is a prerequisite for programming, programming an
 
 Computers are precise, and computing instructions must be clear and unambiguous, as the computer cannot think - it can only follow orders. Unlike humans, computers do not get bored or distracted, they process data very quickly, and will carry out the same tedious, repetitive tasks over and over again without making mistakes.
 
-{% include figure.html img="proc-diagram.png" alt="Computational thinking at work" caption="The computational thinking process in action" width="100%" %}
+![The computational thinking process in action](fig/proc-diagram.png){alt="Computational thinking at work" width="100%"}
 
 #### Computational thinking in our daily lives
 
@@ -39,7 +39,7 @@ Structure diagrams also allow you to plan problem breakdown visually. At the top
 
 In the bushwalking scenario, the group of four people have to try to solve the problem of being lost. This diagram is the very start of their thinking about their immediate needs. 
 
-{% include figure.html img="structure.png" alt="Structure diagram" caption="Basic structure diagram" width="100%" %}
+![Basic Structure Diagram](fig/structure.png){alt="Structure diagram" width="100%"}
 
 ---------
 

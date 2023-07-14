@@ -12,7 +12,7 @@ Suppose we want to find the ten words most commonly used in a text. How might we
 
 While there are many different ways to do this task, this is one way, where all the commands are run in a linear sequence, e.g.,
 
-{% include figure.html img="count-words.png" alt="counting words in a text" caption="Counting words in a text" width="60%" %}
+![Counting words in a text](fig/count-words.png){alt="counting words in a text" width="60%"}
 
 First we save the file in `.txt` format to eliminate all the "smart" formatting created by programs like Word (as they would otherwise introduce a messy bunch of extraneous characters). Then we progressively eliminate everything from the text that is not a word, i.e. punctuation. 
 
@@ -28,7 +28,7 @@ Each part of the sequence would need to be individually programmed. Fortunately,
 
 Programming rarely works in such a linear fashion. Code generally includes branching so that different pathways can be taken, depending on whether or not certain conditions are met, e.g., different responses to a `Yes/No` or `True/False` decision, as in the example here.
 
-{% include figure.html img="workflow.png" alt="Branching code" caption="Branching code" width="90%" %}
+![Branching code](fig/workflow.png){alt="Branching code" width="90%"}
 
 ----------------
 
