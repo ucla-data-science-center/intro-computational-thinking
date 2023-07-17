@@ -8,13 +8,13 @@
 # lc: Library Carpentry
 # cp: Carpentries (to use for instructor training for instance)
 # incubator: The Carpentries Incubator
-carpentry: 'incubator'
+carpentry: 'lc'
 
 # Overall title for pages.
-title: 'Lesson Title'
+title: 'Introducing Computational Thinking'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: 
+created: "2022-08-12"
 
 # Comma-separated list of keywords for the lesson
 keywords: 'software, data, lesson, The Carpentries'
@@ -27,7 +27,7 @@ life_cycle: 'pre-alpha'
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/carpentries/workbench-template-md'
+source: 'https://github.com/GULibrarySandbox/intro-computational-thinking'
 
 # Default branch of your lesson
 branch: 'main'
@@ -59,14 +59,14 @@ contact: 'team@carpentries.org'
 
 # Order of episodes in your lesson
 episodes: 
-- 0-intro.md
-- 1-exercise.md
-- 2-lesson.md
-- 3-lesson.md
-- 4-lesson.md
-- 5-solutions.md
-- 6-resources.md
-- 7-glossary.md
+- intro.md
+- exercise.md
+- computation_practice.md
+- computation_programming.md
+- pseudocode.md
+- solutions.md
+- resources.md
+- glossary.md
 
 
 # Information for Learners
