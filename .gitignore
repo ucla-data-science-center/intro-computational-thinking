@@ -11,3 +11,6 @@ vendor/
 # Ignore mac files 
 .DS_Store
 .Rproj.user
+
+# Ignore Local Files from Rstudio
+site/

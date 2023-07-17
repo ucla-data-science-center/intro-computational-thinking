@@ -10,8 +10,8 @@ home:
 template:
   package: varnish
   params:
-    time: 2023-07-17 16:19:38 +0000
-    source: https://github.com/GULibrarySandbox/intro-computational-thinking
+    time: 2023-07-17 17:20:43 +0000
+    source: https://github.com/ucla-data-science-center/intro-computational-thinking
     branch: main
     contact: team@carpentries.org
     license: CC-BY 4.0
