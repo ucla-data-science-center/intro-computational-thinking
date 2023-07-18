@@ -10,7 +10,7 @@ home:
 template:
   package: varnish
   params:
-    time: 2023-07-17 17:20:43 +0000
+    time: 2023-07-18 16:14:22 +0000
     source: https://github.com/ucla-data-science-center/intro-computational-thinking
     branch: main
     contact: team@carpentries.org
@@ -37,8 +37,6 @@ template:
     - computation_programming.md
     - pseudocode.md
     - solutions.md
-    - resources.md
-    - glossary.md
     learners: ~
     instructors: ~
     profiles: ~
