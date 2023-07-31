@@ -64,7 +64,7 @@ episodes:
 - computation_practice.md
 - computation_programming.md
 - pseudocode.md
-- solutions.md
+- solutions.Rmd
 
 
 # Information for Learners

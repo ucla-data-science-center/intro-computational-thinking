@@ -250,7 +250,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Exercise</h1>
-        <p> Last updated on 2023-07-17 | 
+        <p> Last updated on 2023-07-31 | 
         
         <a href="https://github.com/ucla-data-science-center/intro-computational-thinking/edit/main/episodes/exercise.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         
@@ -274,17 +274,89 @@ in less than a minute.</p>
 - we break the problem up into smaller pieces. Rather than trying to add
 the numbers up sequentially, which would be challenging for many people
 to do in their heads, let’s approach the task in a different way.</p>
-<div class="section level3">
-<h3 id="decomposition">Decomposition<a class="anchor" aria-label="anchor" href="#decomposition"></a></h3>
+<div id="decomposition" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="decomposition" class="callout-inner">
+<h3 class="callout-title">Decomposition<a class="anchor" aria-label="anchor" href="#decomposition"></a>
+</h3>
+<div class="callout-content">
 <p>Let’s begin at each end of the 1-200 sequence by adding up the first
 and last numbers.</p>
-<p>What is <code>200 + 1</code>? The answer is <code>201</code>.</p>
+<p>What is <code>200 + 1</code>?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1">
+  Show me the solution
+  </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
+<p>The answer is <code>201</code>.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="decomposition" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="decomposition" class="callout-inner">
+<h3 class="callout-title">Decomposition<em> (continued)</em><a class="anchor" aria-label="anchor" href="#decomposition"></a>
+</h3>
+<div class="callout-content">
 <p>Let’s now add up the second and the second last numbers,
-i.e. <code>199 + 2</code>. The answer is <code>201</code>.</p>
+i.e. <code>199 + 2</code>.</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2">
+  Show me the solution
+  </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div class="accordion-body">
+<p>The answer is <code>201</code>.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="decomposition" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="decomposition" class="callout-inner">
+<h3 class="callout-title">Decomposition<em> (continued)</em><a class="anchor" aria-label="anchor" href="#decomposition"></a>
+</h3>
+<div class="callout-content">
 <p>Let’s now add up the third and the third last numbers,
-i.e. <code>198 + 3</code>. The answer is <code>201</code>.</p>
-<hr></div>
-<div class="section level3">
+i.e. <code>198 + 3</code>.</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution3" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
+  <h4 class="accordion-header" id="headingSolution3">
+  Show me the solution
+  </h4>
+</button>
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div class="accordion-body">
+<p>The answer is <code>201</code>.</p>
+</div>
+</div>
+</div>
+</div>
+<hr><div class="section level3">
 <h3 id="pattern-recognition">Pattern recognition<a class="anchor" aria-label="anchor" href="#pattern-recognition"></a></h3>
 <p>Using our second step - <em>Pattern recognition</em> - we should be
 able to spot a clear pattern, i.e. that each pair of numbers appears to
@@ -320,17 +392,33 @@ algebraic formula:</p>
 <code>number to be added</code>.</p>
 <hr><p>That’s it! Using those four key steps, we have learned the basics of
 computational thinking.</p>
-<hr><div class="section level4">
-<h4 id="practice">Practice<a class="anchor" aria-label="anchor" href="#practice"></a></h4>
+<hr><div id="practice" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="practice" class="callout-inner">
+<h3 class="callout-title">Practice<a class="anchor" aria-label="anchor" href="#practice"></a>
+</h3>
+<div class="callout-content">
 <p>Use the algorithm above to add up all the numbers between 1 and 24, 1
 and 50, and 1 and 1,000.</p>
 </div>
-<div class="section level4">
-<h4 id="discussion">Discussion<a class="anchor" aria-label="anchor" href="#discussion"></a></h4>
+</div>
+</div>
+<div id="discussion" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="discussion" class="callout-inner">
+<h3 class="callout-title">Discussion<a class="anchor" aria-label="anchor" href="#discussion"></a>
+</h3>
+<div class="callout-content">
 <p>The numbers above are all even numbers. What would be the process for
 adding up numbers if the final number is an odd one, e.g., 17? Can you
 use the same formula? If not, what adaptations would you need to make to
 the formula?</p>
+</div>
+</div>
 </div>
 </div>
 
@@ -389,8 +477,8 @@ the formula?</p>
   "url": "https://ucla-data-science-center.github.io/intro-computational-thinking/instructor/exercise.html",
   "identifier": "https://ucla-data-science-center.github.io/intro-computational-thinking/instructor/exercise.html",
   "dateCreated": "2022-08-12",
-  "dateModified": "2023-07-17",
-  "datePublished": "2023-07-18"
+  "dateModified": "2023-07-31",
+  "datePublished": "2023-07-31"
 }
 
   </script><script>

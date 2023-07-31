@@ -11,15 +11,31 @@ It's not.
 
 Using the first computational thinking step - *Decomposition* - we break the problem up into smaller pieces. Rather than trying to add the numbers up sequentially, which would be challenging for many people to do in their heads, let's approach the task in a different way.
 
-### Decomposition
+::::::::: challenge
+
+## Decomposition
 
 Let's begin at each end of the 1-200 sequence by adding up the first and last numbers.
 
-What is `200 + 1`? The answer is `201`.
+What is `200 + 1`? 
 
-Let's now add up the second and the second last numbers, i.e. `199 + 2`. The answer is `201`.
+:::::::: solution
+The answer is `201`.
+:::::::
 
-Let's now add up the third and the third last numbers, i.e. `198 + 3`. The answer is `201`.
+Let's now add up the second and the second last numbers, i.e. `199 + 2`. 
+
+:::::::: solution
+The answer is `201`.
+:::::::
+
+Let's now add up the third and the third last numbers, i.e. `198 + 3`. 
+
+:::::::: solution
+The answer is `201`.
+:::::::
+
+:::::::::
 
 -------
 
@@ -65,10 +81,15 @@ That's it! Using those four key steps, we have learned the basics of computation
 
 ---------
 
-#### Practice
+:::challenge
+## Practice
 
 Use the algorithm above to add up all the numbers between 1 and 24, 1 and 50, and 1 and 1,000.
+:::
 
-#### Discussion
+:::: discussion
+
+## Discussion
 
 The numbers above are all even numbers. What would be the process for adding up numbers if the final number is an odd one, e.g., 17? Can you use the same formula? If not, what adaptations would you need to make to the formula?
+:::

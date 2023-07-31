@@ -40,19 +40,29 @@ The same piece of code could be re-used for any word counting exercise by changi
 
 ---------
 
-#### Practice 1. Creating backup copies of files
+::: challenge
+
+## Practice 1. Creating backup copies of files
 
 In a folder, we have 250 image files for which we want to create backup copies before we process the images for archiving. Manually creating 250 copies of files seems like a very boring thing to do, so we are going to automate the workflow to create the backup copies. 
 
 Write some pseudocode of how you might automate this process.
 
-#### Practice 2a. Tidying up
+:::
+
+::: challenge
+
+## Practice 2a. Tidying up
 
 We have a large folder of files left over from a project that is now finished. The files are all sitting in the one folder which makes it hard to navigate. We want to archive the project and its files, but in the process, we want to create folders by file type, e.g., `.pdf`, `.jpg`, `.doc`, so that anyone wanting to access those particular file types can do so easily. We also want to delete files that have no file extensions. New folders will need to be created and the different files moved into them by file type. 
 
 Write some pseudocode of how you might automate this process.
 
-#### Practice 2b. Tidying up more carefully
+:::
+
+::: challenge
+
+## Practice 2b. Tidying up more carefully
 
 In the process of doing the above, we actually made a few blunders. We accidentally deleted some files we should have kept either because they were mislabelled or they were missing a file extension. Because this automation is a complex operation that cannot be undone, we want to make sure we don't make those kinds of mistakes again. 
 
@@ -60,13 +70,19 @@ One way to do that is to check we have coded the workflow correctly *before* we 
 
 Write some pseudocode for that step of the process.
 
-#### Practice 3. Managing incoming data
+:::
+
+::: challenge
+
+## Practice 3. Managing incoming data
 
 Suppose you have a number of acoustic listening devices set up in the bush. Every day, you receive an email from each device with an attached data file recording that day's activity. In order to analyse the data from the devices, all the separate daily data files need to be combined weekly into a single file. It is important that each device ID is listed within a column in the combined data file to identify all the different locations. 
 
 In order to analyse the data over time, you need to append the weekly file digest to the existing, now very large, main data file. Before adding anything new, and in order to safeguard the integrity of the data, you need to create a backup of that main data file and send a copy of that backup file to your cloud storage account for safekeeping. Once the new data has been appended, you need to rename the new main data file with today's date as part of the file name, and run software against the file to ensure the integrity of the data, e.g., to check that no data is missing (which might indicate a malfunctioning device).
 
 Write some pseudocode of how you might automate this process.
+
+:::
 
 -------------------
 
@@ -82,10 +98,13 @@ Links to sites that teach coding and other resources on computational thinking a
 
 --------------
 
-### For later
+::: discussion
+
+## For later
 
 Suppose you write that file movement script and it works a treat. 
 
 Why not get it to run every month to tidy up folders that invariably become messy over time, e.g., your computer's `Downloads` folder? 
 
-Or, suppose you use a file naming convention that starts with `YYYY-MM-DD`. Why not run a script annually to sort and organise your documents by year? 
+Or, suppose you use a file naming convention that starts with `YYYY-MM-DD`. Why not run a script annually to sort and organize your documents by year? 
+:::

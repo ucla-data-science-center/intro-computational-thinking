@@ -43,6 +43,8 @@ In the bushwalking scenario, the group of four people have to try to solve the p
 
 ---------
 
-### Practice
+:::challenge
+## Practice
 
 Imagine that night is now falling fast, and our friends are still stuck in the bush. Add some more detail to the structure diagram to help them survive the night.
+:::

@@ -32,6 +32,8 @@ Programming rarely works in such a linear fashion. Code generally includes branc
 
 ----------------
 
-#### Practice
+:::challenge
+## Practice
 
 Our friends have finally made it out of the bush and back to civilisation. Their experience, while unpleasant, has not put them off bushwalking. Draw a structure diagram of the planning they need to do for next time to avert another disaster.
+:::

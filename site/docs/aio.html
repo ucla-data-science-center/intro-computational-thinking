@@ -303,7 +303,7 @@
         
 <section id="aio-intro"><p>Content from <a href="intro.html">Introduction</a></p>
 <hr>
-<p> Last updated on 2023-07-17 | 
+<p> Last updated on 2023-07-31 | 
         
         <a href="https://github.com/ucla-data-science-center/intro-computational-thinking/edit/main/episodes/intro.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -423,7 +423,7 @@ the ACM</em>, March 2006, Vol. 49 No. 3, Pages 33-35. DOI: <a href="https://dx.
 </ol>
 </div></section><section id="aio-exercise"><p>Content from <a href="exercise.html">Exercise</a></p>
 <hr>
-<p> Last updated on 2023-07-17 | 
+<p> Last updated on 2023-07-31 | 
         
         <a href="https://github.com/ucla-data-science-center/intro-computational-thinking/edit/main/episodes/exercise.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -439,18 +439,89 @@ in less than a minute.</p>
 - we break the problem up into smaller pieces. Rather than trying to add
 the numbers up sequentially, which would be challenging for many people
 to do in their heads, let’s approach the task in a different way.</p>
-<div class="section level3">
-<h3 id="decomposition">Decomposition<a class="anchor" aria-label="anchor" href="#decomposition"></a>
+<div id="decomposition" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="decomposition" class="callout-inner">
+<h3 class="callout-title">Decomposition<a class="anchor" aria-label="anchor" href="#decomposition"></a>
 </h3>
+<div class="callout-content">
 <p>Let’s begin at each end of the 1-200 sequence by adding up the first
 and last numbers.</p>
-<p>What is <code>200 + 1</code>? The answer is <code>201</code>.</p>
-<p>Let’s now add up the second and the second last numbers,
-i.e. <code>199 + 2</code>. The answer is <code>201</code>.</p>
-<p>Let’s now add up the third and the third last numbers,
-i.e. <code>198 + 3</code>. The answer is <code>201</code>.</p>
-<hr>
+<p>What is <code>200 + 1</code>?</p>
 </div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1">
+  Show me the solution
+  </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
+<p>The answer is <code>201</code>.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="decomposition" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="decomposition" class="callout-inner">
+<h3 class="callout-title">Decomposition<em> (continued)</em><a class="anchor" aria-label="anchor" href="#decomposition"></a>
+</h3>
+<div class="callout-content">
+<p>Let’s now add up the second and the second last numbers,
+i.e. <code>199 + 2</code>.</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2">
+  Show me the solution
+  </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div class="accordion-body">
+<p>The answer is <code>201</code>.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="decomposition" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="decomposition" class="callout-inner">
+<h3 class="callout-title">Decomposition<em> (continued)</em><a class="anchor" aria-label="anchor" href="#decomposition"></a>
+</h3>
+<div class="callout-content">
+<p>Let’s now add up the third and the third last numbers,
+i.e. <code>198 + 3</code>.</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution3" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
+  <h4 class="accordion-header" id="headingSolution3">
+  Show me the solution
+  </h4>
+</button>
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div class="accordion-body">
+<p>The answer is <code>201</code>.</p>
+</div>
+</div>
+</div>
+</div>
+<hr>
 <div class="section level3">
 <h3 id="pattern-recognition">Pattern recognition<a class="anchor" aria-label="anchor" href="#pattern-recognition"></a>
 </h3>
@@ -494,23 +565,37 @@ algebraic formula:</p>
 <p>That’s it! Using those four key steps, we have learned the basics of
 computational thinking.</p>
 <hr>
-<div class="section level4">
-<h4 id="practice">Practice<a class="anchor" aria-label="anchor" href="#practice"></a>
-</h4>
+<div id="practice" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="practice" class="callout-inner">
+<h3 class="callout-title">Practice<a class="anchor" aria-label="anchor" href="#practice"></a>
+</h3>
+<div class="callout-content">
 <p>Use the algorithm above to add up all the numbers between 1 and 24, 1
 and 50, and 1 and 1,000.</p>
 </div>
-<div class="section level4">
-<h4 id="discussion">Discussion<a class="anchor" aria-label="anchor" href="#discussion"></a>
-</h4>
+</div>
+</div>
+<div id="discussion" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="discussion" class="callout-inner">
+<h3 class="callout-title">Discussion<a class="anchor" aria-label="anchor" href="#discussion"></a>
+</h3>
+<div class="callout-content">
 <p>The numbers above are all even numbers. What would be the process for
 adding up numbers if the final number is an odd one, e.g., 17? Can you
 use the same formula? If not, what adaptations would you need to make to
 the formula?</p>
 </div>
+</div>
+</div>
 </div></section><section id="aio-computation_practice"><p>Content from <a href="computation_practice.html">Computational thinking in practice</a></p>
 <hr>
-<p> Last updated on 2023-07-17 | 
+<p> Last updated on 2023-07-31 | 
         
         <a href="https://github.com/ucla-data-science-center/intro-computational-thinking/edit/main/episodes/computation_practice.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -582,16 +667,23 @@ solve the problem of being lost. This diagram is the very start of their
 thinking about their immediate needs.</p>
 <figure><img src="fig/structure.png" style="width:100.0%" alt="Structure diagram" class="figure mx-auto d-block"><div class="figcaption">Basic Structure Diagram</div>
 </figure><hr>
+<div id="practice" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
 </div>
-<div class="section level3">
-<h3 id="practice">Practice<a class="anchor" aria-label="anchor" href="#practice"></a>
+<div id="practice" class="callout-inner">
+<h3 class="callout-title">Practice<a class="anchor" aria-label="anchor" href="#practice"></a>
 </h3>
+<div class="callout-content">
 <p>Imagine that night is now falling fast, and our friends are still
 stuck in the bush. Add some more detail to the structure diagram to help
 them survive the night.</p>
+</div>
+</div>
+</div>
 </div></section><section id="aio-computation_programming"><p>Content from <a href="computation_programming.html">Computational thinking in programming</a></p>
 <hr>
-<p> Last updated on 2023-07-17 | 
+<p> Last updated on 2023-07-31 | 
         
         <a href="https://github.com/ucla-data-science-center/intro-computational-thinking/edit/main/episodes/computation_programming.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -642,17 +734,24 @@ a <code>Yes/No</code> or <code>True/False</code> decision, as in the
 example here.</p>
 <figure><img src="fig/workflow.png" style="width:90.0%" alt="Branching code" class="figure mx-auto d-block"><div class="figcaption">Branching code</div>
 </figure><hr>
+<div id="practice" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
 </div>
-<div class="section level4">
-<h4 id="practice">Practice<a class="anchor" aria-label="anchor" href="#practice"></a>
-</h4>
+<div id="practice" class="callout-inner">
+<h3 class="callout-title">Practice<a class="anchor" aria-label="anchor" href="#practice"></a>
+</h3>
+<div class="callout-content">
 <p>Our friends have finally made it out of the bush and back to
 civilisation. Their experience, while unpleasant, has not put them off
 bushwalking. Draw a structure diagram of the planning they need to do
 for next time to avert another disaster.</p>
+</div>
+</div>
+</div>
 </div></section><section id="aio-pseudocode"><p>Content from <a href="pseudocode.html">Pseudocode</a></p>
 <hr>
-<p> Last updated on 2023-07-17 | 
+<p> Last updated on 2023-07-31 | 
         
         <a href="https://github.com/ucla-data-science-center/intro-computational-thinking/edit/main/episodes/pseudocode.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -727,19 +826,31 @@ an important part of <code>abstraction</code>.</p>
 exercise by changing the list variables and the input source. That would
 be another example of <code>abstraction</code>.</p>
 <hr>
+<div id="practice-1.-creating-backup-copies-of-files" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
 </div>
-<div class="section level4">
-<h4 id="practice-1--creating-backup-copies-of-files">Practice 1. Creating backup copies of files<a class="anchor" aria-label="anchor" href="#practice-1--creating-backup-copies-of-files"></a>
-</h4>
+<div id="practice-1.-creating-backup-copies-of-files" class="callout-inner">
+<h3 class="callout-title">Practice 1. Creating backup copies of
+files<a class="anchor" aria-label="anchor" href="#practice-1.-creating-backup-copies-of-files"></a>
+</h3>
+<div class="callout-content">
 <p>In a folder, we have 250 image files for which we want to create
 backup copies before we process the images for archiving. Manually
 creating 250 copies of files seems like a very boring thing to do, so we
 are going to automate the workflow to create the backup copies.</p>
 <p>Write some pseudocode of how you might automate this process.</p>
 </div>
-<div class="section level4">
-<h4 id="practice-2a--tidying-up">Practice 2a. Tidying up<a class="anchor" aria-label="anchor" href="#practice-2a--tidying-up"></a>
-</h4>
+</div>
+</div>
+<div id="practice-2a.-tidying-up" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="practice-2a.-tidying-up" class="callout-inner">
+<h3 class="callout-title">Practice 2a. Tidying up<a class="anchor" aria-label="anchor" href="#practice-2a.-tidying-up"></a>
+</h3>
+<div class="callout-content">
 <p>We have a large folder of files left over from a project that is now
 finished. The files are all sitting in the one folder which makes it
 hard to navigate. We want to archive the project and its files, but in
@@ -750,9 +861,16 @@ want to delete files that have no file extensions. New folders will need
 to be created and the different files moved into them by file type.</p>
 <p>Write some pseudocode of how you might automate this process.</p>
 </div>
-<div class="section level4">
-<h4 id="practice-2b--tidying-up-more-carefully">Practice 2b. Tidying up more carefully<a class="anchor" aria-label="anchor" href="#practice-2b--tidying-up-more-carefully"></a>
-</h4>
+</div>
+</div>
+<div id="practice-2b.-tidying-up-more-carefully" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="practice-2b.-tidying-up-more-carefully" class="callout-inner">
+<h3 class="callout-title">Practice 2b. Tidying up more carefully<a class="anchor" aria-label="anchor" href="#practice-2b.-tidying-up-more-carefully"></a>
+</h3>
+<div class="callout-content">
 <p>In the process of doing the above, we actually made a few blunders.
 We accidentally deleted some files we should have kept either because
 they were mislabelled or they were missing a file extension. Because
@@ -768,9 +886,16 @@ correct files and only execute the final move workflow once we are sure
 we have everything right.</p>
 <p>Write some pseudocode for that step of the process.</p>
 </div>
-<div class="section level4">
-<h4 id="practice-3--managing-incoming-data">Practice 3. Managing incoming data<a class="anchor" aria-label="anchor" href="#practice-3--managing-incoming-data"></a>
-</h4>
+</div>
+</div>
+<div id="practice-3.-managing-incoming-data" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="practice-3.-managing-incoming-data" class="callout-inner">
+<h3 class="callout-title">Practice 3. Managing incoming data<a class="anchor" aria-label="anchor" href="#practice-3.-managing-incoming-data"></a>
+</h3>
+<div class="callout-content">
 <p>Suppose you have a number of acoustic listening devices set up in the
 bush. Every day, you receive an email from each device with an attached
 data file recording that day’s activity. In order to analyse the data
@@ -789,6 +914,9 @@ against the file to ensure the integrity of the data, e.g., to check
 that no data is missing (which might indicate a malfunctioning
 device).</p>
 <p>Write some pseudocode of how you might automate this process.</p>
+</div>
+</div>
+</div>
 <hr>
 <p>Some potential solutions to these practice coding exercises can be
 found on the <a href="/solutions.html">Solutions</a> page.</p>
@@ -804,22 +932,29 @@ programmable parts.</p>
 thinking are listed in the <a href="/resources.html">Resources</a>
 section.</p>
 <hr>
+<div id="for-later" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
 </div>
-<div class="section level3">
-<h3 id="for-later">For later<a class="anchor" aria-label="anchor" href="#for-later"></a>
+<div id="for-later" class="callout-inner">
+<h3 class="callout-title">For later<a class="anchor" aria-label="anchor" href="#for-later"></a>
 </h3>
+<div class="callout-content">
 <p>Suppose you write that file movement script and it works a treat.</p>
 <p>Why not get it to run every month to tidy up folders that invariably
 become messy over time, e.g., your computer’s <code>Downloads</code>
 folder?</p>
 <p>Or, suppose you use a file naming convention that starts with
 <code>YYYY-MM-DD</code>. Why not run a script annually to sort and
-organise your documents by year?</p>
+organize your documents by year?</p>
+</div>
+</div>
+</div>
 </div></section><section id="aio-solutions"><p>Content from <a href="solutions.html">Potential solutions to practice exercises</a></p>
 <hr>
-<p> Last updated on 2023-07-17 | 
+<p> Last updated on 2023-07-31 | 
         
-        <a href="https://github.com/ucla-data-science-center/intro-computational-thinking/edit/main/episodes/solutions.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+        <a href="https://github.com/ucla-data-science-center/intro-computational-thinking/edit/main/episodes/solutions.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right"> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -827,9 +962,15 @@ organise your documents by year?</p>
 different ways so these solutions are suggestions only. They are offered
 here to provide some guidance for people who might otherwise struggle
 with laying out steps.</p>
-<div class="section level4">
-<h4 id="practice-1--creating-backup-copies-of-files">Practice 1. Creating backup copies of files<a class="anchor" aria-label="anchor" href="#practice-1--creating-backup-copies-of-files"></a>
-</h4>
+<div id="practice-1.-creating-backup-copies-of-files" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="practice-1.-creating-backup-copies-of-files" class="callout-inner">
+<h3 class="callout-title">Practice 1. Creating backup copies of
+files<a class="anchor" aria-label="anchor" href="#practice-1.-creating-backup-copies-of-files"></a>
+</h3>
+<div class="callout-content">
 <p>In a folder, we have 250 image files for which we want to create
 backup copies before we process the images for archiving. Manually
 creating 250 copies of files seems like a very boring thing to do, so we
@@ -837,20 +978,31 @@ are going to automate the workflow to create the backup copies.</p>
 <p>This is a perfect task for a loop, as the task is simple and
 repetitive.</p>
 </div>
-<div class="section level4">
-<h4 id="potential-solution">Potential solution<a class="anchor" aria-label="anchor" href="#potential-solution"></a>
-</h4>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1">
+  Potential solution
+  </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
 <p><em>Steps in the copying process</em></p>
 <figure><img src="fig/pseudo-loop.png" style="width:70.0%" alt="Steps in the loop" class="figure mx-auto d-block"><div class="figcaption">Steps in the copying loop</div>
-</figure><hr>
-<div class="section level5">
-<h5 id="example-code-in-the-unix-shell">Example code in the Unix shell<a class="anchor" aria-label="anchor" href="#example-code-in-the-unix-shell"></a>
-</h5>
-<p><code>for filename in "*.jpg" "*.tif" "*.png"</code><br>
-     <code>do</code><br>
-     <code>cp $filename backup-$filename</code><br>
-     <code>echo $filename backup-$filename</code><br><code>done</code></p>
-<hr>
+</figure><div class="section level3">
+<h3 id="example-code-in-the-unix-shell">Example code in the Unix shell<a class="anchor" aria-label="anchor" href="#example-code-in-the-unix-shell"></a>
+</h3>
+<div class="codewrapper sourceCode" id="cb1">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="cf">for</span> filename <span class="kw">in</span> <span class="st">"*.jpg"</span> <span class="st">"*.tif"</span> <span class="st">"*.png"</span></span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a>  <span class="cf">do</span></span>
+<span id="cb1-3"><a href="#cb1-3" tabindex="-1"></a>  <span class="fu">cp</span> <span class="va">$filename</span> backup-<span class="va">$filename</span></span>
+<span id="cb1-4"><a href="#cb1-4" tabindex="-1"></a>  <span class="bu">echo</span> <span class="va">$filename</span> backup-<span class="va">$filename</span></span>
+<span id="cb1-5"><a href="#cb1-5" tabindex="-1"></a><span class="cf">done</span></span></code></pre>
+</div>
 <figure><img src="fig/loop-shell.png" style="width:90.0%" alt="Loop as it would be written in the Unix shell" class="figure mx-auto d-block"><div class="figcaption">Coding a loop in the Unix shell</div>
 </figure><p><em>Notes</em></p>
 <p>In the code example above, the loop will run through the folder
@@ -866,12 +1018,19 @@ creating back up copies of all the files with the file extension
 filenames of the new files to the screen.</p>
 <p>The loop will then stop, as there are no more variables to work
 on.</p>
-<hr>
 </div>
 </div>
-<div class="section level4">
-<h4 id="practice-2a--tidying-up">Practice 2a. Tidying up<a class="anchor" aria-label="anchor" href="#practice-2a--tidying-up"></a>
-</h4>
+</div>
+</div>
+</div>
+<div id="practice-2a.-tidying-up" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="practice-2a.-tidying-up" class="callout-inner">
+<h3 class="callout-title">Practice 2a. Tidying up<a class="anchor" aria-label="anchor" href="#practice-2a.-tidying-up"></a>
+</h3>
+<div class="callout-content">
 <p>We have a large folder of files left over from a project that is now
 finished. The files are all sitting in the one folder which makes it
 hard to navigate. We want to archive the project and its files, but in
@@ -881,9 +1040,17 @@ wanting to access those particular file types can do so easily. We also
 want to delete files that have no file extensions. New folders will need
 to be created and the different files moved into them by file type.</p>
 </div>
-<div class="section level4">
-<h4 id="potential-solution-1">Potential solution<a class="anchor" aria-label="anchor" href="#potential-solution-1"></a>
-</h4>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2">
+  Potential solution
+  </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div class="accordion-body">
 <p><em>Steps in the moving process</em></p>
 <ol style="list-style-type: decimal">
 <li>Identify the different file types in the folder.</li>
@@ -905,9 +1072,17 @@ tasks listed above, such as folder creation, file movement using loops,
 file deletion and so on. The benefit of shell scripts is that the code
 they contain can be re-used or adapted for similar tasks.</p>
 </div>
-<div class="section level4">
-<h4 id="practice-2b--tidying-up-more-carefully">Practice 2b. Tidying up more carefully<a class="anchor" aria-label="anchor" href="#practice-2b--tidying-up-more-carefully"></a>
-</h4>
+</div>
+</div>
+</div>
+<div id="practice-2b.-tidying-up-more-carefully" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="practice-2b.-tidying-up-more-carefully" class="callout-inner">
+<h3 class="callout-title">Practice 2b. Tidying up more carefully<a class="anchor" aria-label="anchor" href="#practice-2b.-tidying-up-more-carefully"></a>
+</h3>
+<div class="callout-content">
 <p>In the process of doing the above, we actually made a few blunders.
 We accidentally deleted some files we should have kept either because
 they were missing a file extension. Because this automation is a complex
@@ -924,12 +1099,19 @@ check whether or not to delete a file, e.g., by using the remove command
 <code>-i</code> flag forces the system to ask for confirmation on
 whether or not to delete a file. One can answer either
 <strong>Y</strong> or <strong>N</strong> to the example below.</p>
-<p>{% include figure.html img=“code-in-shell.png” alt=“RM command in the
-shell” caption=“Confirming a ‘remove’ command” width=“75%” %}</p>
+<p><img src="fig/code-in-shell.png" alt="Confirming a remove command" class="figure">{alt=“RM command in the shell”,
+width=“75%”}</p>
 </div>
-<div class="section level4">
-<h4 id="practice-3--managing-incoming-data">Practice 3. Managing incoming data<a class="anchor" aria-label="anchor" href="#practice-3--managing-incoming-data"></a>
-</h4>
+</div>
+</div>
+<div id="practice-3.-managing-incoming-data" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="practice-3.-managing-incoming-data" class="callout-inner">
+<h3 class="callout-title">Practice 3. Managing incoming data<a class="anchor" aria-label="anchor" href="#practice-3.-managing-incoming-data"></a>
+</h3>
+<div class="callout-content">
 <p>Suppose you have a number of acoustic listening devices set up in the
 bush. Every day, you receive an email from each device with an attached
 data file recording that day’s activity. In order to analyse the data
@@ -937,6 +1119,18 @@ from the devices, all the separate daily data files need to be combined
 weekly into a single file. It is important that each device ID is listed
 within a column in the combined data file to identify all the different
 locations.</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution3" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
+  <h4 class="accordion-header" id="headingSolution3">
+  Show me the solution
+  </h4>
+</button>
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div class="accordion-body">
 <p>In order to analyse the data over time, you need to append the weekly
 file digest to the existing, now very large, main data file. Before
 adding anything new, and in order to safeguard the integrity of the
@@ -970,7 +1164,9 @@ to verify that no data is missing.</li>
 these tasks are run weekly, it would make sense to turn this into an
 automated task rather than a manual one as that will not only be faster,
 but will reduce the opportunity for error.</p>
-<hr>
+</div>
+</div>
+</div>
 </div></section>
 </div>
     </main>
@@ -1020,8 +1216,8 @@ but will reduce the opportunity for error.</p>
   "url": "https://ucla-data-science-center.github.io/intro-computational-thinking/aio.html",
   "identifier": "https://ucla-data-science-center.github.io/intro-computational-thinking/aio.html",
   "dateCreated": "2022-08-12",
-  "dateModified": "2023-07-18",
-  "datePublished": "2023-07-18"
+  "dateModified": "2023-07-31",
+  "datePublished": "2023-07-31"
 }
 
   </script><script>
