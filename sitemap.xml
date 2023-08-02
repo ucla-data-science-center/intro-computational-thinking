@@ -13,6 +13,9 @@
     <loc>https://ucla-data-science-center.github.io/intro-computational-thinking/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://ucla-data-science-center.github.io/intro-computational-thinking/aio.html</loc>
+  </url>
+  <url>
     <loc>https://ucla-data-science-center.github.io/intro-computational-thinking/computation_practice.html</loc>
   </url>
   <url>
@@ -20,6 +23,9 @@
   </url>
   <url>
     <loc>https://ucla-data-science-center.github.io/intro-computational-thinking/exercise.html</loc>
+  </url>
+  <url>
+    <loc>https://ucla-data-science-center.github.io/intro-computational-thinking/images.html</loc>
   </url>
   <url>
     <loc>https://ucla-data-science-center.github.io/intro-computational-thinking/index.html</loc>
@@ -37,6 +43,9 @@
     <loc>https://ucla-data-science-center.github.io/intro-computational-thinking/instructor/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://ucla-data-science-center.github.io/intro-computational-thinking/instructor/aio.html</loc>
+  </url>
+  <url>
     <loc>https://ucla-data-science-center.github.io/intro-computational-thinking/instructor/computation_practice.html</loc>
   </url>
   <url>
@@ -46,10 +55,19 @@
     <loc>https://ucla-data-science-center.github.io/intro-computational-thinking/instructor/exercise.html</loc>
   </url>
   <url>
+    <loc>https://ucla-data-science-center.github.io/intro-computational-thinking/instructor/images.html</loc>
+  </url>
+  <url>
     <loc>https://ucla-data-science-center.github.io/intro-computational-thinking/instructor/index.html</loc>
   </url>
   <url>
+    <loc>https://ucla-data-science-center.github.io/intro-computational-thinking/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
     <loc>https://ucla-data-science-center.github.io/intro-computational-thinking/instructor/intro.html</loc>
+  </url>
+  <url>
+    <loc>https://ucla-data-science-center.github.io/intro-computational-thinking/instructor/key-points.html</loc>
   </url>
   <url>
     <loc>https://ucla-data-science-center.github.io/intro-computational-thinking/instructor/profiles.html</loc>
@@ -67,7 +85,13 @@
     <loc>https://ucla-data-science-center.github.io/intro-computational-thinking/instructor/solutions.html</loc>
   </url>
   <url>
+    <loc>https://ucla-data-science-center.github.io/intro-computational-thinking/instructor-notes.html</loc>
+  </url>
+  <url>
     <loc>https://ucla-data-science-center.github.io/intro-computational-thinking/intro.html</loc>
+  </url>
+  <url>
+    <loc>https://ucla-data-science-center.github.io/intro-computational-thinking/key-points.html</loc>
   </url>
   <url>
     <loc>https://ucla-data-science-center.github.io/intro-computational-thinking/profiles.html</loc>
