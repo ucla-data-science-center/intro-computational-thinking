@@ -10,9 +10,9 @@ This workshop will take you through the steps to think in a computational mindse
 Once you have completed this workshop, you should be able to:
 
 - Identify the steps involved in computational thinking
-- Break a problem down into more manageable pieces
-- Develop an algorithm to solve the problem
-- Use abstraction to make the algoritm re-usable
+- Break a problem down into more manageable parts
+- Develop a series of steps (an *algorithm*) to solve the problem
+- Generalise the steps to make the algorithm re-usable (*abstraction*)
 
 :::: prereq
 
