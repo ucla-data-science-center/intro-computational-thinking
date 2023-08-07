@@ -15,9 +15,9 @@ Different definitions of computational thinking exist. However, computational th
 
 #### Problem scenario
 
-Four friends are out on an afternoon bushwalk. Their plan was to go only for a short hike, so no-one has brought along an emergency beacon, and all mobile phones were left in the car. Everyone has a water bottle, though these are no longer full, but no-one brought a map as the trail they were planning to follow is clearly marked and signposted. 
+Four friends are out on an afternoon walk through a forest. Their plan was to go only for a short hike, so no-one has brought along an emergency beacon, and all mobile phones were left in the car. Everyone has a water bottle, though these are no longer full, but no-one brought a map as the trail they were planning to follow is clearly marked and signposted. 
 
-However, they all left the trail together in a great rush when they heard a distant cry for help. After some fast walking through dense bush trying and failing to reach whoever made that distress call, they realise quite suddenly that they are lost. The cries sound much more distant now, but when they retrace their steps to what they thought was the path to strike out in a different direction, they cannot find it. 
+However, they all left the trail together in a great rush when they heard a distant cry for help. After some fast walking through dense woods trying and failing to reach whoever made that distress call, they realise quite suddenly that they are lost. The cries sound much more distant now, but when they retrace their steps to what they thought was the path to strike out in a different direction, they cannot find it. 
 
 The sun is starting to sink, it is growing colder, they are now hopelessly lost, and everyone is starting to feel hungry ... 
 
@@ -62,7 +62,7 @@ Use automation, but use it wisely, and ethically, and always with lashings of hu
 
 #### What's next?
 
-Our friends in the bush are still in the shouting, blaming and squabbling stage of their predicament, so while they are occupied in **NOT** solving their problem, we will look at computational thinking in a little more detail and examine how we can use each step to solve a maths problem.
+Our friends in the forest are still in the shouting, blaming and squabbling stage of their predicament, so while they are occupied in **NOT** solving their problem, we will look at computational thinking in a little more detail and examine how we can use each step to solve a maths problem.
 
 -------------
 
