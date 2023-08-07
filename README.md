@@ -11,6 +11,8 @@ Once you have completed this workshop, you should be able to:
 - Develop an algorithm to solve the problem
 - Use abstraction to make the algoritm re-usable
 
+The workshop will not teach computer programming *per se*. Instead it will cover the thought processes involved should you want to learn to program.
+
 ## Audience
 
 This workshop is aimed at researchers at all stages who want to understand the building blocks of computational thinking.
