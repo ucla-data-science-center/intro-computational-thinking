@@ -29,7 +29,7 @@ Every time we need to plan to do something, we use some of the steps of computat
 
 - Parents use it to juggle work, parenting, community responsibilities and housework.
 
-- Lost bushwalkers can use it to try to find their way out of the bush.
+- Lost hikers can use it to try to find their way out of the forest.
 
 #### Breaking problems down with structure diagrams
 
@@ -37,7 +37,7 @@ When trying to solve problems, it is essential to break them down into their con
 
 Structure diagrams also allow you to plan problem breakdown visually. At the top should be the objective, and the steps underneath should start with high level considerations. These high level considerations can then be broken down into smaller and smaller steps.
 
-In the bushwalking scenario, the group of four people have to try to solve the problem of being lost. This diagram is the very start of their thinking about their immediate needs. 
+In the hiking scenario, the group of four people have to try to solve the problem of being lost. This diagram is the very start of their thinking about their immediate needs. 
 
 ![Basic Structure Diagram](fig/structure.png){alt="Structure diagram" width="100%"}
 
@@ -46,5 +46,5 @@ In the bushwalking scenario, the group of four people have to try to solve the p
 :::challenge
 ## Practice
 
-Imagine that night is now falling fast, and our friends are still stuck in the bush. Add some more detail to the structure diagram to help them survive the night.
+Imagine that night is now falling fast, and our friends are still stuck in the forest. Add some more detail to the structure diagram to help them survive the night.
 :::
