@@ -47,7 +47,7 @@ There are many courses, MOOCs and other online lessons on learning to code, whet
 
 | **Term** | **Meaning** |
 | :--- | :--- |
-| **Abstraction** | Abstractions involves reducing a problem's complexity by focusing solely on the most important details. For example, a model is an abstract representation of a real system. The use of variables in algebra or computer programming is another example. Abstraction can also be called generalising. |
+| **Abstraction** | Abstraction involves reducing a problem's complexity by focusing solely on the most important details. For example, a model is an abstract representation of a real system. The use of variables in algebra or computer programming is another example. Abstraction can also be called generalising. |
 | &nbsp; | &nbsp; |
 | **Algorithm** | An algorithm is a series of steps that must be followed in a specific order to solve a problem. When you plan a route home from work or cook a recipe, you are executing an algorithm. Providing a solution to a problem in the form of an algorithm makes a process repeatable and reproducible by others. |
 | &nbsp; | &nbsp; |
@@ -55,7 +55,7 @@ There are many courses, MOOCs and other online lessons on learning to code, whet
 | &nbsp; | &nbsp; |
 | **Coding** | Another word for computer programming, i.e. writing computer code that instructs a computer in what to do. |
 | &nbsp; | &nbsp; |
-| **Decomposition** | Solving a complex problem by breaking it down into smaller, more manageable tasks. |
+| **Decomposition** | Solving a complex problem by breaking it down into smaller, more manageable tasks. Thios is also called factoring. |
 | &nbsp; | &nbsp; |
 | **Pattern matching** | Pattern matching identifies specific patterns within data, regardless of where the pattern might occur. In contrast to pattern recognition, pattern matching only identifies exact matches. Regular expressions can be used to specify these patterns. |
 | &nbsp; | &nbsp; |
@@ -65,7 +65,7 @@ There are many courses, MOOCs and other online lessons on learning to code, whet
 | &nbsp; | &nbsp; |
 | **Programming** | Another word for coding. |
 | &nbsp; | &nbsp; |
-| **Value** | In programming, a value is an entity that can be manipulated by a program. It is usually a number (a whole integer, e.g. 10 or a floating point number, e.g. 5.126), a single character, or a string of characters.  |
+| **Value** | In programming, a value is an entity that can be manipulated by a program. It is usually a number (a whole integer, e.g. 10 or a floating point number, e.g. 5.126), a single character, a string of characters or a list.  |
 | &nbsp; | &nbsp; |
 | **Variable** | In programming, a variable is a kind of 'container' for a value or a range of values that are swapped in and out as a program runs. |
 | &nbsp; | &nbsp; |
