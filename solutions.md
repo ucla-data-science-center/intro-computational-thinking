@@ -94,7 +94,7 @@ To prevent accidental deletion of files, we could introduce a step to check whet
 
 ## Practice 3. Managing incoming data
 
-Suppose you have a number of acoustic listening devices set up in the bush. Every day, you receive an email from each device with an attached data file recording that day's activity. In order to analyse the data from the devices, all the separate daily data files need to be combined weekly into a single file. It is important that each device ID is listed within a column in the combined data file to identify all the different locations.
+Suppose you have a number of acoustic listening devices set up in the forest. Every day, you receive an email from each device with an attached data file recording that day's activity. In order to analyse the data from the devices, all the separate daily data files need to be combined weekly into a single file. It is important that each device ID is listed within a column in the combined data file to identify all the different locations.
 
 ::: solution
 
