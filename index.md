@@ -3,7 +3,7 @@ site: sandpaper::sandpaper_site
 ---
 
 Computational thinking is an essential prerequisite for anyone wanting to learn to program computers and write code. 
-This workshop will take you through the steps to develop a computational mindset.
+This workshop developed by Belinda Weaver will take you through the steps to develop a computational mindset.
 
 ## Learning Objectives
 
