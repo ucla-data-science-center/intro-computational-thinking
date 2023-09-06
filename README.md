@@ -1,7 +1,8 @@
 {% capture aboutworkshop %}
 
 This lesson was ported from Belinda Weaver's [Intro to Computational Thinking](https://github.com/weaverbel/intro-computational-thinking).
-Her original lesson can be found in the link and this lesson is her lesson but in the Carpentries format.
+Her original lesson can be found in the link and this lesson is her lesson but in the Carpentries format. This is her [github](https://github.com/weaverbel) 
+and her [orcid](https://orcid.org/0000-0002-6156-7997).
 
 ## Topic and aims
 
