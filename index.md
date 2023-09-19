@@ -4,7 +4,7 @@ site: sandpaper::sandpaper_site
 
 Computational thinking is an essential prerequisite for anyone wanting to learn to program computers and write code. 
 This workshop will take you through the steps to develop a computational mindset. This lesson was initially conceived and designed by 
-[Belinda Weaver](https://github.com/weaverbel) and you can find her orcid [here](https://orcid.org/0000-0002-6156-7997).
+[Belinda Weaver](https://github.com/weaverbel) ([ORCiD](https://orcid.org/0000-0002-6156-7997)).
 
 ## Learning Objectives
 
