@@ -12,14 +12,14 @@ Once you have completed this workshop, you should be able to:
 
 - Identify the steps involved in computational thinking
 - Break a problem down into more manageable pieces
-- Develop an algorithm to solve the problem
-- Use abstraction to make the algoritm re-usable
+- Develop an algorithm (a series of steps) to solve the problem
+- Use abstraction (generalising a solution) to make the algorithm re-usable
 
 The workshop will not teach computer programming *per se*. Instead it will cover the thought processes involved should you want to learn to program.
 
 ## Audience
 
-This workshop is aimed at researchers at all stages who want to understand the building blocks of computational thinking.
+This workshop is aimed at librarians and researchers at all stages who want to understand the building blocks of computational thinking.
 
 ## Prerequisites
 
