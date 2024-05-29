@@ -1,1 +1,1 @@
-- [Belinda Weaver](https://github.com/weaverbel), Griffith University Library
+- [Belinda Weaver](https://github.com/weaverbel), formerly of Griffith University Library, where the original version of this workshop was created.
